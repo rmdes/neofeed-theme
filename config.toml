@@ -10,6 +10,11 @@ paginate = 6
 [taxonomies]
 tag = "tags"
 
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
 [author]
 name = "Ricardo Mendes" # Your online name
 # Your profile image. External link or relative to static/. Examples:
