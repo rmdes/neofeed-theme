@@ -1,0 +1,51 @@
+# Your full site URL. Example:
+# "https://<username>.neocities.org/"
+baseURL = "https://blog.rmendes.net/"
+languageCode = "en-us"
+# Title of your site
+title = "rMdes - a place to write and think freely"
+# How many feed entries to load at once
+paginate = 6
+
+[taxonomies]
+tag = "tags"
+
+[author]
+name = "Ricardo Mendes" # Your online name
+# Your profile image. External link or relative to static/. Examples:
+# "https://imgur.com/123456788"
+# "image/me.webp"
+image = "https://micro.blog/rmdes/avatar.jpg"
+about = "Passionné par l’information, la démocratie, la justice et le discernement.
+Passionate about information systems, democracy, justice and discernment"
+
+[params]
+# Name of a file in static/skins/ without the ".css" extension
+skin = "macintosh"
+
+#
+# Totally optional cool stuff (see README for details)
+#
+# socialImage = "static/img/social.png" # site image for rich embeds
+# customCSS = "css/style.css" # relative to ./static/
+# plausible = true
+# paymentPointer = "$wallet.provider.com/myspecialid123"
+WebmentionUrl = "https://webmention.io/blog.rmendes.net/webmention"
+# pingbackUrl = "https://webmention.io/example/xmlrpc"
+# micropubUrl = "https://example.com/.netlify/functions/micropub"
+# microsubUrl = "https://aperture.p3k.io/microsub/example"
+
+#
+# For IndieAuth and the author card
+#
+githubuser = "rmdes"
+twitteruser = "rmdes_" # no @ in front
+mastodon = "https://mstdn.social/@rmdes" # full link to your instance profile
+
+[permalinks]
+# Format for feed entry links. You probably don't need to change this.
+feed = "/:title/"
+
+[outputs]
+# Output formats for your feed. You probably don't need to change this.
+  home = ["HTML", "JSON", "RSS"]
